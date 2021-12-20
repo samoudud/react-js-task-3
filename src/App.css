@@ -2,37 +2,47 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.header {
+  height: 100vh;
+  background-color: #E0913B;
+  color: #FFFFFF;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.main-color{
+  color: #E0913B;
+}
+.main-bg{
+  background-color: #E0913B;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.common-btn {
+  width: 120px;
+  padding: 5px;
+  margin: 0px 10px;
+  border: 1px solid #E0913B;
+  border-radius: 2px;
+  background-color: white;
+  /* color: #E0913B; */
+  font-size: large;
 }
 
-.App-link {
-  color: #61dafb;
+.line{
+  color: black;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* Registration And Log In page Style */
+.btn-color{
+  background-color: #E0913B;
+  color: #FFFFFF;
+  
+}
+
+.profile-image-pic{
+  height: 200px;
+  width: 200px;
+  object-fit: cover;
+}
+
+.input-bg{
+  background-color: #f8f2dd;
 }
